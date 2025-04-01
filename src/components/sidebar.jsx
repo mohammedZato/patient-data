@@ -18,7 +18,7 @@ export default function Sidebar() {
         <aside className="bg-[#FFFFFF] w-[350px] h-full ml-2 mt-5 border-opacity-50 rounded-md">
             <div className="py-1 px-3">
                 <div className="flex items-center mb-5">
-                    <h2 className="font-bold text-[24px] mr-auto">Patients</h2>
+                    <h2 className="font-bold text-gray-900 text-[24px] mr-auto">Patients</h2>
                     <img src={search} alt="search-icon" />
                 </div>  
                 <ul>
