@@ -24,21 +24,21 @@ export default function Boddy() {
                     <div className="flex gap-3 py-5">
                         <div className="bg-[#E0F3FA] px-2 py-3 rounded-md w-[228px]">
                             <img src={Lungs} alt="" />
-                            <h3 className="text-black">Respiratory Rate</h3>
-                            <h2 className="font-medium text-black text-xl">{jessicaInfo.respiratoryValue} bmp</h2>
-                            <h4 className="text-sm text-black mt-2">{jessicaInfo.respiratoryLevel}</h4>
+                            <h3 className="text-gray-900">Respiratory Rate</h3>
+                            <h2 className="font-medium text-gray-900 text-xl">{jessicaInfo.respiratoryValue} bmp</h2>
+                            <h4 className="text-sm text-gray-900 mt-2">{jessicaInfo.respiratoryLevel}</h4>
                         </div>
                         <div className="bg-[#FFE6E9] px-2 py-3 rounded-md w-[228px]">
                             <img src={Temp} alt="" />
-                            <h3 className="text-black">Temperature</h3>
-                            <h2 className="font-medium text-black text-xl">{jessicaInfo.temperatureValue} F</h2>
-                            <h4 className="text-sm text-black mt-2">{jessicaInfo.temperatureLevel}</h4>
+                            <h3 className="text-gray-900">Temperature</h3>
+                            <h2 className="font-medium text-gray-900 text-xl">{jessicaInfo.temperatureValue} F</h2>
+                            <h4 className="text-sm text-gray-900 mt-2">{jessicaInfo.temperatureLevel}</h4>
                         </div>
                         <div className="bg-[#FFE6F1] px-2 py-3 rounded-md w-[228px]">
                             <img src={Heart} alt="" />
-                            <h3 className="text-black">Heart Rate</h3>
-                            <h2 className="font-medium text-black text-xl">{jessicaInfo.hRValue} bmp</h2>
-                            <h4 className="text-sm text-black mt-2">{jessicaInfo.hRLevel}</h4>
+                            <h3 className="text-gray-900">Heart Rate</h3>
+                            <h2 className="font-medium text-gray-900 text-xl">{jessicaInfo.hRValue} bmp</h2>
+                            <h4 className="text-sm text-gray-900 mt-2">{jessicaInfo.hRLevel}</h4>
                         </div>
                     </div>
                 </div>
