@@ -10,7 +10,7 @@ export default function Graph() {
             <div className=" flex gap-3">
                 <div>
                     <div className="">
-                        <h3 className="text-sm float-right absolute top-20 right-[260px]">Last 6 months</h3>
+                        <h3 className="text-sm float-right text-gray-900 absolute top-20 right-[260px]">Last 6 months</h3>
                     </div>
                     <div>
                         <LineGraph />
@@ -22,20 +22,20 @@ export default function Graph() {
                             <div className="border size-3 mr-1 rounded-full bg-[#E66FD2]">
                                 
                             </div>
-                            <h3 className="font-medium text-sm">Systolic</h3>
+                            <h3 className="font-medium text-gray-900 text-sm">Systolic</h3>
                         </div>
-                        <span className="font-bold">{jessicaInfo.systolicValue}</span>
-                        <h3 className="text-sm">{jessicaInfo.systolicLevels}</h3>
+                        <span className="font-bold text-gray-900">{jessicaInfo.systolicValue}</span>
+                        <h3 className="text-sm text-gray-900">{jessicaInfo.systolicLevels}</h3>
                     </div>
                     <div>
                         <div className="flex items-center">
                             <div className="border size-3 mr-1 rounded-full bg-[#8C6FE6]">
                                 
                             </div>
-                            <h3 className="font-medium text-sm">Diastolic</h3>
+                            <h3 className="font-medium text-gray-900 text-sm">Diastolic</h3>
                         </div>
-                        <span className="font-bold">{jessicaInfo.diastolicValue}</span>
-                        <h3 className="text-sm">{jessicaInfo.diastolicLevels}</h3>
+                        <span className="font-bold text-gray-900">{jessicaInfo.diastolicValue}</span>
+                        <h3 className="text-sm text-gray-900">{jessicaInfo.diastolicLevels}</h3>
                     </div>
                 </div>
             </div>     
