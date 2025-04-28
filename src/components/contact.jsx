@@ -8,8 +8,8 @@ export default function Contact() {
         <div className=" items-center gap-5 hidden lg:flex">
             <img src={Woman} alt="" />
             <div className="flex flex-col">
-                <span className="font-medium text-[14px]">Dr.Jose Simmons</span>
-                <span className="">General Practitioner </span>
+                <span className="text-black font-medium text-[14px]">Dr.Jose Simmons</span>
+                <span className="text-black ">General Practitioner </span>
             </div>       
             <div className="flex gap-2">
                 <img src={Gear} alt="Gear-icon" />

@@ -1,13 +1,15 @@
 import React, { useContext } from "react";
 import LineGraph from "./lineGraph";
 import { PatientData } from "../Context";
+import Arrowup from "../images/ArrowUp.svg";
+import Arrowdown from "../images/ArrowDown.svg"
 
 export default function Graph() {
     const { jessicaInfo } = useContext(PatientData);
 
     return (
         <section className="w-[600px] h-[190px]">
-            <div className=" flex gap-3">
+            <div className="flex gap-3">
                 <div>
                     <div className="">
                         <h3 className="text-sm float-right text-gray-900 absolute top-20 right-[260px]">Last 6 months</h3>
@@ -25,7 +27,11 @@ export default function Graph() {
                             <h3 className="font-medium text-gray-900 text-sm">Systolic</h3>
                         </div>
                         <span className="font-bold text-gray-900">{jessicaInfo.systolicValue}</span>
-                        <h3 className="text-sm text-gray-900">{jessicaInfo.systolicLevels}</h3>
+                        <div className="flex space-x-2">
+                            <img src={Arrowup} alt="" />
+                            <h3 className="text-sm text-gray-900">{jessicaInfo.systolicLevels}</h3>
+                        </div>
+                        
                     </div>
                     <div>
                         <div className="flex items-center">
@@ -35,7 +41,11 @@ export default function Graph() {
                             <h3 className="font-medium text-gray-900 text-sm">Diastolic</h3>
                         </div>
                         <span className="font-bold text-gray-900">{jessicaInfo.diastolicValue}</span>
-                        <h3 className="text-sm text-gray-900">{jessicaInfo.diastolicLevels}</h3>
+                        <div className="flex space-x-2">
+                            <img src={Arrowdown} alt="" />
+                            <h3 className="text-sm text-gray-900">{jessicaInfo.diastolicLevels}</h3>
+                        </div>
+                        
                     </div>
                 </div>
             </div>     
