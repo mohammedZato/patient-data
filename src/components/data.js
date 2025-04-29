@@ -12,14 +12,14 @@ export const lineChartData = {
     datasets: [
         {
             label: "Blood Pressure",
-            data: [120, 133, 91, 128, 119, 160],
+            data: [120, 110, 150, 108, 143, 149],
             borderColor: "#C26EB4",
             backgroundColor: "#E66FD2",
             pointBorderColor: "#E66FD2",
             tension: 0.4
         },
         {
-            data: [105, 103, 120, 86, 73, 120],
+            data: [105, 65, 105, 90, 73, 76],
             borderColor: "#7E6CAB",
             backgroundColor: "##8C6FE6",
             pointBorderColor: "#8C6FE6",

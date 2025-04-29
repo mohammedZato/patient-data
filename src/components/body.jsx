@@ -40,10 +40,10 @@ export default function Boddy() {
                             <img src={Heart} alt="" />
                             <h3 className="text-gray-900">Heart Rate</h3>
                             <h2 className="font-medium text-gray-900 text-xl">{jessicaInfo.hRValue} bmp</h2>
-                            <div className="flex space-x-2 items-center">
-                                <img src={Arrowdown} alt="" />
-                                <h4 className="text-sm text-gray-900 mt-2">{jessicaInfo.hRLevel}</h4>
-                            </div>  
+                            <div className="flex space-x-2">
+                                <img className="mt-[8px]" src={Arrowdown} alt="" />
+                                <h4 className="text-sm text-gray-900 mt-2">{jessicaInfo.hRLevel}</h4>   
+                            </div>
                         </div>
                     </div>
                 </div>

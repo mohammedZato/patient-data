@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import LineGraph from "./lineGraph";
 import { PatientData } from "../Context";
 import Arrowup from "../images/ArrowUp.svg";
-import Arrowdown from "../images/ArrowDown.svg"
-
+import Arrowdown from "../images/ArrowDown.svg";
+import Expand from "../images/expand.svg";
 export default function Graph() {
     const { jessicaInfo } = useContext(PatientData);
 
@@ -11,7 +11,7 @@ export default function Graph() {
         <section className="w-[600px] h-[190px]">
             <div className="flex gap-3">
                 <div>
-                    <div className="">
+                    <div>
                         <h3 className="text-sm float-right text-gray-900 absolute top-20 right-[260px]">Last 6 months</h3>
                     </div>
                     <div>

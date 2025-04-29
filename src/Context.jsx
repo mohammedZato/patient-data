@@ -23,7 +23,8 @@ export default function GlobalState({ children }){
             }
             const result = await response.json();
             const data = (result[3]);
-            console.log(data.diagnosis_history[0].blood_pressure.diastolic)
+            console.log(data)
+            // console.log(data.diagnosis_history[0].blood_pressure.diastolic)
             setJessicaInfo({
                 "age": data.age,
                 "dateOfBirth": data.date_of_birth,
@@ -52,6 +53,10 @@ export default function GlobalState({ children }){
                 "diastolicValue": data.diagnosis_history[0].blood_pressure.diastolic.value,
                 "systolicLevels": data.diagnosis_history[0].blood_pressure.systolic.levels,
                 "diastolicLevels": data.diagnosis_history[0].blood_pressure.diastolic.levels,
+                "bloodTest": data.lab_results[0],
+                "scans": data.lab_results[1],
+                "radiology": data.lab_results[2],
+                "xRays": data.lab_results[3],
             })
         } catch (error) {
             console.log(error)

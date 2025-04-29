@@ -23,6 +23,7 @@ export default function Sidebar() {
                     <h2 className="font-bold text-gray-900 text-[24px] mr-auto">Patients</h2>
                     <img className="cursor-pointer" src={search} alt="search-icon" />
                 </div>  
+                <scroll className="text-black"/>
                 <ul>
                     <li className="">
                         <NavLink className="text-black py-2 px-2 flex mb-2 hover:text-gray-800">
